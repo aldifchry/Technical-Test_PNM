@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_CASE01,Firefox 139.0.1,,,18-12-2025 12:52:39,18-12-2025 12:53:16,37.366s,FAILED
+,,,,,,,
+Test Cases/TC_UI_01,Firefox 139.0.1,,,18-12-2025 12:52:39,18-12-2025 12:53:02,23.177s,PASSED
+"openBrowser("""")",Firefox 139.0.1,,,18-12-2025 12:52:39,18-12-2025 12:52:44,5.327s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Firefox 139.0.1,,,18-12-2025 12:52:44,18-12-2025 12:52:49,5.121s,PASSED
+maximizeWindow(),Firefox 139.0.1,,,18-12-2025 12:52:49,18-12-2025 12:52:50,0.544s,PASSED
+"scrollToPosition(0, 500)",Firefox 139.0.1,,,18-12-2025 12:52:50,18-12-2025 12:52:50,0.027s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Name_firstName""), ""Aldi"")",Firefox 139.0.1,,,18-12-2025 12:52:50,18-12-2025 12:52:51,0.919s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Name_lastName""), ""Fachry"")",Firefox 139.0.1,,,18-12-2025 12:52:51,18-12-2025 12:52:51,0.490s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Email_userEmail""), ""aldifachry@example.com"")",Firefox 139.0.1,,,18-12-2025 12:52:51,18-12-2025 12:52:52,0.506s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/label_Male""))",Firefox 139.0.1,,,18-12-2025 12:52:52,18-12-2025 12:52:52,0.449s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_(10 Digits)_userNumber""), ""0877383075"")",Firefox 139.0.1,,,18-12-2025 12:52:52,18-12-2025 12:52:53,0.496s,PASSED
+"scrollToPosition(0, 500)",Firefox 139.0.1,,,18-12-2025 12:52:53,18-12-2025 12:52:53,0.011s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/input_Date of Birth_dateOfBirthInput""))",Firefox 139.0.1,,,18-12-2025 12:52:53,18-12-2025 12:52:53,0.502s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_DEMOQA/select_190019011902190319041905190619071908_246ee1""), ""2010"", true)",Firefox 139.0.1,,,18-12-2025 12:52:53,18-12-2025 12:52:55,1.724s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_DEMOQA/select_JanuaryFebruaryMarchAprilMayJuneJuly_566629""), ""0"", true)",Firefox 139.0.1,,,18-12-2025 12:52:55,18-12-2025 12:52:56,0.944s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_5""))",Firefox 139.0.1,,,18-12-2025 12:52:56,18-12-2025 12:52:57,0.456s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/input_Subjects_subjectsInput""), ""Testing"")",Firefox 139.0.1,,,18-12-2025 12:52:57,18-12-2025 12:52:57,0.505s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/label_Sports""))",Firefox 139.0.1,,,18-12-2025 12:52:57,18-12-2025 12:52:58,0.668s,PASSED
+"setText(findTestObject(""Object Repository/Page_DEMOQA/textarea_Current Address_currentAddress""), ""Setia Budi"")",Firefox 139.0.1,,,18-12-2025 12:52:58,18-12-2025 12:52:58,0.498s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_Select State""))",Firefox 139.0.1,,,18-12-2025 12:52:58,18-12-2025 12:52:59,0.515s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_NCR""))",Firefox 139.0.1,,,18-12-2025 12:52:59,18-12-2025 12:52:59,0.456s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_Select City""))",Firefox 139.0.1,,,18-12-2025 12:52:59,18-12-2025 12:53:00,0.462s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/div_Jaipur""))",Firefox 139.0.1,,,18-12-2025 12:53:00,18-12-2025 12:53:00,0.450s,PASSED
+"click(findTestObject(""Object Repository/Page_DEMOQA/button_Submit""))",Firefox 139.0.1,,,18-12-2025 12:53:00,18-12-2025 12:53:01,0.489s,PASSED
+popupTitle = new com.kms.katalon.core.testobject.TestObject(dynamicPopupTitle),Firefox 139.0.1,,,18-12-2025 12:53:01,18-12-2025 12:53:01,0.016s,PASSED
+"popupTitle.addProperty(""id"", EQUALS, ""example-modal-sizes-title-lg"")",Firefox 139.0.1,,,18-12-2025 12:53:01,18-12-2025 12:53:01,0.008s,PASSED
+"waitForElementVisible(popupTitle, 10)",Firefox 139.0.1,,,18-12-2025 12:53:01,18-12-2025 12:53:01,0.289s,PASSED
+"verifyElementText(popupTitle, ""Thanks for submitting the form"")",Firefox 139.0.1,,,18-12-2025 12:53:01,18-12-2025 12:53:01,0.245s,PASSED
+closeBrowser(),Firefox 139.0.1,,,18-12-2025 12:53:01,18-12-2025 12:53:02,0.859s,PASSED
+,,,,,,,
+Test Cases/TC_DDT_01,Firefox 139.0.1,,,18-12-2025 12:53:02,18-12-2025 12:53:15,13.216s,FAILED
+"DATA BINDING - {""(Default) mobil..."":"""",""(Default) first..."":"""",""(Default) email"":"""",""(Default) isVal..."":"""",""(Default) lastN..."":"""",""(Default) gende..."":""""}",,,,,,,
+"openBrowser("""")",Firefox 139.0.1,,,18-12-2025 12:53:02,18-12-2025 12:53:06,4.138s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Firefox 139.0.1,,,18-12-2025 12:53:06,18-12-2025 12:53:11,4.856s,PASSED
+maximizeWindow(),Firefox 139.0.1,,,18-12-2025 12:53:11,18-12-2025 12:53:12,0.576s,PASSED
+"if (firstName != null && firstName.trim() != """")",Firefox 139.0.1,,,18-12-2025 12:53:12,18-12-2025 12:53:12,0.003s,PASSED
+"if (lastName != null && lastName.trim() != """")",Firefox 139.0.1,,,18-12-2025 12:53:12,18-12-2025 12:53:12,0.001s,PASSED
+"if (email != null && email.trim() != """")",Firefox 139.0.1,,,18-12-2025 12:53:12,18-12-2025 12:53:12,0.001s,PASSED
+"if (gender == ""Male"")",Firefox 139.0.1,,,18-12-2025 12:53:12,18-12-2025 12:53:12,0.001s,PASSED
+"if (mobile != null && mobile.trim() != """")",Firefox 139.0.1,,,18-12-2025 12:53:12,18-12-2025 12:53:12,0.001s,PASSED
+"scrollToPosition(0, 1000)",Firefox 139.0.1,,,18-12-2025 12:53:12,18-12-2025 12:53:12,0.022s,PASSED
+"click(findTestObject(""Page_DEMOQA/button_Submit""))",Firefox 139.0.1,,,18-12-2025 12:53:12,18-12-2025 12:53:15,3.243s,PASSED
+"if (isValid == ""true"")",Firefox 139.0.1,,,18-12-2025 12:53:15,18-12-2025 12:53:15,0.000s,PASSED
+else,Firefox 139.0.1,,,18-12-2025 12:53:15,18-12-2025 12:53:15,0.275s,FAILED

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_Petstore" tests="14" time="6.109">
+  <testsuite name="Get_Pet" id="8d2e2272-f3fe-4353-96cc-f047c41b025a" timestamp="2025-12-18T06:04:49.011Z" tests="1" failures="1" errors="0" time="1.536">
+    <testcase name="Status code 200" time="1.536" classname="GetPet">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 404">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 4fd6fe36-e894-4e95-a753-5895335ec424.]]>
+        <![CDATA[Collection name: Test_Petstore.]]>
+        <![CDATA[Request name: Get_Pet.]]>
+        <![CDATA[Test description: Status code 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 404
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Create_Pet" id="e7357862-30f4-4629-87a0-051c1bae48c4" timestamp="2025-12-18T06:04:49.011Z" tests="1" failures="0" errors="0" time="0.353">
+    <testcase name="Status code 200" time="0.353" classname="CreatePet"/>
+  </testsuite>
+  <testsuite name="Update_Pet" id="657810d2-e6fc-46d8-8a7d-a6c4f1a6fdaf" timestamp="2025-12-18T06:04:49.011Z" tests="1" failures="0" errors="0" time="0.288">
+    <testcase name="Update success" time="0.288" classname="UpdatePet"/>
+  </testsuite>
+  <testsuite name="Find_Pet" id="115e2009-276e-4d01-aaf0-154febcc0b32" timestamp="2025-12-18T06:04:49.011Z" tests="1" failures="0" errors="0" time="1.043">
+    <testcase name="Status code 200" time="1.043" classname="FindPet"/>
+  </testsuite>
+  <testsuite name="Delete_Pet" id="5b02a603-fbd4-4675-93c7-a7fe2cf47c0a" timestamp="2025-12-18T06:04:49.011Z" tests="1" failures="0" errors="0" time="0.274">
+    <testcase name="Delete success" time="0.274" classname="DeletePet"/>
+  </testsuite>
+  <testsuite name="Upload_Image" id="21421c3b-4db8-4b0e-a85d-230328b16b53" timestamp="2025-12-18T06:04:49.011Z" tests="1" failures="1" errors="0" time="0.354">
+    <testcase name="Upload image gagal karena server error" time="0.354" classname="UploadImage">
+      <failure type="AssertionFailure" message="expected response to have status code 500 but got 415">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 4fd6fe36-e894-4e95-a753-5895335ec424.]]>
+        <![CDATA[Collection name: Test_Petstore.]]>
+        <![CDATA[Request name: Upload_Image.]]>
+        <![CDATA[Test description: Upload image gagal karena server error.]]>
+        <![CDATA[Error message: expected response to have status code 500 but got 415.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 500 but got 415
+   at Object.eval sandbox-script.js:1:6).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Pet_Not_Found" id="5f311e00-f880-4a5f-86f6-554b3e2d91ae" timestamp="2025-12-18T06:04:49.011Z" tests="1" failures="0" errors="0" time="0.266">
+    <testcase name="Pet not found" time="0.266" classname="PetNotFound"/>
+  </testsuite>
+  <testsuite name="ID_Huruf" id="6fe33dce-3d4c-47e9-b6b5-0a8fd0b59bbf" timestamp="2025-12-18T06:04:49.011Z" tests="0" failures="0" errors="0" time="0.309"/>
+  <testsuite name="Create_Pet_Noname" id="ef1ea6aa-f637-40b9-b724-9fad66351664" timestamp="2025-12-18T06:04:49.011Z" tests="1" failures="1" errors="0" time="0.269">
+    <testcase name="Create gagal, name kosong" time="0.269" classname="CreatePetNoname">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 415">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 4fd6fe36-e894-4e95-a753-5895335ec424.]]>
+        <![CDATA[Collection name: Test_Petstore.]]>
+        <![CDATA[Request name: Create_Pet_Noname.]]>
+        <![CDATA[Test description: Create gagal, name kosong.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 415.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 415
+   at Object.eval sandbox-script.js:1:9).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Invalid_Status" id="ba088594-5abc-4e38-abe4-9db94baff77c" timestamp="2025-12-18T06:04:49.011Z" tests="1" failures="1" errors="0" time="0.316">
+    <testcase name="Create gagal, status invalid" time="0.316" classname="InvalidStatus">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 415">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 4fd6fe36-e894-4e95-a753-5895335ec424.]]>
+        <![CDATA[Collection name: Test_Petstore.]]>
+        <![CDATA[Request name: Invalid_Status.]]>
+        <![CDATA[Test description: Create gagal, status invalid.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 415.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 415
+   at Object.eval sandbox-script.js:1:10).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Update_Pet_No_ID" id="ef5ba5db-5da9-4706-aa6c-6c7042328977" timestamp="2025-12-18T06:04:49.011Z" tests="1" failures="1" errors="0" time="0.289">
+    <testcase name="Update gagal, ID tidak ada" time="0.289" classname="UpdatePetNoId">
+      <failure type="AssertionFailure" message="expected response to have status code 404 but got 415">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 4fd6fe36-e894-4e95-a753-5895335ec424.]]>
+        <![CDATA[Collection name: Test_Petstore.]]>
+        <![CDATA[Request name: Update_Pet_No_ID.]]>
+        <![CDATA[Test description: Update gagal, ID tidak ada.]]>
+        <![CDATA[Error message: expected response to have status code 404 but got 415.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 404 but got 415
+   at Object.eval sandbox-script.js:1:11).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Delete_Pet_ID_Not_Found" id="c01152cf-0be7-40cb-b2d9-9261368c8475" timestamp="2025-12-18T06:04:49.011Z" tests="1" failures="0" errors="0" time="0.285">
+    <testcase name="Delete gagal, ID tidak ada" time="0.285" classname="DeletePetIdNotFound"/>
+  </testsuite>
+  <testsuite name="Get_No_ID" id="f7573302-a7f8-4fba-bbf9-c7ea9501f5be" timestamp="2025-12-18T06:04:49.011Z" tests="1" failures="1" errors="0" time="0.266">
+    <testcase name="Gagal get ID" time="0.266" classname="GetNoId">
+      <failure type="AssertionFailure" message="expected response to have status code 404 but got 405">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 4fd6fe36-e894-4e95-a753-5895335ec424.]]>
+        <![CDATA[Collection name: Test_Petstore.]]>
+        <![CDATA[Request name: Get_No_ID.]]>
+        <![CDATA[Test description: Gagal get ID.]]>
+        <![CDATA[Error message: expected response to have status code 404 but got 405.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 404 but got 405
+   at Object.eval sandbox-script.js:1:13).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Upload_Invalid_ID" id="d5ecbae0-62bb-43c8-b40c-020dbf8330a4" timestamp="2025-12-18T06:04:49.011Z" tests="1" failures="1" errors="0" time="0.261">
+    <testcase name="Upload gagal, ID invalid" time="0.261" classname="UploadInvalidId">
+      <failure type="AssertionFailure" message="expected response to have status code 404 but got 415">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 4fd6fe36-e894-4e95-a753-5895335ec424.]]>
+        <![CDATA[Collection name: Test_Petstore.]]>
+        <![CDATA[Request name: Upload_Invalid_ID.]]>
+        <![CDATA[Test description: Upload gagal, ID invalid.]]>
+        <![CDATA[Error message: expected response to have status code 404 but got 415.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 404 but got 415
+   at Object.eval sandbox-script.js:1:14).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>
